@@ -59,8 +59,8 @@ export default function Home({
         ))}
       </Marquee>
       <Hero
-        headline=" Dessert dragée halvah croissant."
-        description="Cupcake ipsum dolor sit amet lemon drops pastry cotton candy. Sweet carrot cake macaroon bonbon croissant fruitcake jujubes macaroon oat cake. Soufflé bonbon caramels jelly beans. Tiramisu sweet roll cheesecake pie carrot cake. "
+        headline=" Blue Collar Solutions"
+        description="Serving all of Travis County Austin, Texas. My restrictions are working with Electrical Panels and altering wiring approved by Home Inspectors. Plumbing valves I turn off, not replace. If I can turn off the main valve I can replace any products purchased over the counter. "
       />
       <Grid layout="B" variant="filled">
         {products.slice(0, 3).map((product: any, i: number) => (
