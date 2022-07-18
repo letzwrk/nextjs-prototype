@@ -10,23 +10,41 @@
       "descriptionHtml": "<p><span>Powerwashing is a quick way and cost effective way to increase the curb appeal. Exteriors can degrade quickly!</strong></p>",
       "images": [
         {
-          "url": "/assets/drop-shirt-0.png",
-          "altText": "Shirt",
+          "url": "/assets/powerwash_concrete.jpg",
+          "altText": "Pressure Wash Concrete",
           "width": 1000,
           "height": 1000
         },
         {
-          "url": "/assets/drop-shirt-1.png",
-          "altText": "Shirt",
+          "url": "/assets/powerwash_brick.jpg",
+          "altText": "Pressure Wash Brick",
           "width": 1000,
           "height": 1000
         },
         {
-          "url": "/assets/drop-shirt-2.png",
-          "altText": "Shirt",
+          "url": "/assets/powerwash_fence.jpg,
+          "altText": "Power Wash Fence",
           "width": 1000,
           "height": 1000
         }
+        {
+          "url": "/assets/powerwash_driveway.jpg",
+          "altText": "Pressure Wash Driveway",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "url": "/assets/powerwash_walkway.jpg",
+          "altText": "Pressure Wash Walkway",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "url": "/assets/powerwash_dock.jpg,
+          "altText": "Power Wash Dock",
+          "width": 1000,
+          "height": 1000
+        }        
       ],
       "variants": [
         {
@@ -69,13 +87,16 @@
             {
               "label": "Sidewalk"
             }
+            {
+              "label": "Boat Dock"
+            }
           ]
         }
       ]
     },
     {
       "id": "Z2lkOi8vc2hvcGlmeS9Qcm9ksdWN0LzU0NDczMjUwMjQ0MjA=",
-      "name": "Minor Electrical",
+      "name": "Minor Plumbing",
       "vendor": "Next.js",
       "path": "/lightweight-jacket",
       "slug": "lightweight-jacket",
@@ -83,23 +104,35 @@
       "descriptionHtml": "<p><span>What brand and model will I be installing and replacing ? Just send me the  details of the job, pay the service fee and perspective costs. Thaen I'll be on my way!</strong></p>",
       "images": [
         {
-          "url": "/assets/lightweight-jacket-0.png",
-          "altText": "Lightweight Jacket",
+          "url": "/assets/garbagedisposal.jpg",
+          "altText": "Garbage Disposal Install",
           "width": 1000,
           "height": 1000
         },
         {
-          "url": "/assets/lightweight-jacket-1.png",
-          "altText": "Lightweight Jacket",
+          "url": "/assets/tank.jpg",
+          "altText": "Float and Valve Toilet Tank Install",
           "width": 1000,
           "height": 1000
         },
         {
-          "url": "/assets/lightweight-jacket-2.png",
-          "altText": "Lightweight Jacket",
+          "url": "/assets/sink.jpg",
+          "altText": "Sink Install",
           "width": 1000,
           "height": 1000
         }
+        {
+          "url": "/assets/faucet.jpg",
+          "altText": "Sink Install",
+          "width": 1000,
+          "height": 1000
+        }
+        {
+          "url": "/assets/toilet.jpg",
+          "altText": "Toilet Install",
+          "width": 1000,
+          "height": 1000
+        }    
       ],
       "variants": [
         {
@@ -134,13 +167,16 @@
           "displayName": "Select what needs to be done",
           "values": [
             {
-              "label": "Fans & Lights"
+              "label": "Garbage Disposal "
             },
             {
-              "label": "Outlets & Switches"
+              "label": "Sink Install"
             },
             {
-              "label": ""
+              "label": "Toilet tank (float and valve)"
+            },
+            {
+              "label": "Toilet Install"
             }
           ]
         }
@@ -148,7 +184,7 @@
     },
     {
       "id": "Z2lkOis8vc2hvcGlmsddeS9Qcm9kdWN0LzU0NDczMjUwMjQ0MjA=",
-      "name": "Minor Plumbing",
+      "name": "Minor Electrical",
       "vendor": "Next.js",
       "path": "/shirt",
       "slug": "shirt",
@@ -156,35 +192,23 @@
       "descriptionHtml": "<p><span>What brand and model will I be installing and replacing ? Just send me the  details of the job, pay the service fee and perspective costs. Thaen I'll be on my way!</strong></p>",
       "images": [
         {
-          "url": "/assets/t-shirt-0.png",
-          "altText": "Shirt",
+          "url": "/assets/ceilingfan_install.jpg",
+          "altText": "Ceiling Fan Install",
           "width": 1000,
           "height": 1000
         },
         {
-          "url": "/assets/t-shirt-1.png",
-          "altText": "Shirt",
+          "url": "/assets/outlet.jpg",
+          "altText": "Electrical Outlet Install",
           "width": 1000,
           "height": 1000
         },
         {
-          "url": "/assets/t-shirt-2.png",
-          "altText": "Shirt",
+          "url": "/assets/switch.jpg",
+          "altText": "Electrical Switch Install",
           "width": 1000,
           "height": 1000
         },
-        {
-          "url": "/assets/t-shirt-3.png",
-          "altText": "Shirt",
-          "width": 1000,
-          "height": 1000
-        },
-        {
-          "url": "/assets/t-shirt-4.png",
-          "altText": "Shirt",
-          "width": 1000,
-          "height": 1000
-        }
       ],
       "variants": [
         {
@@ -219,13 +243,13 @@
           "displayName": "Select what needs to be done",
           "values": [
             {
-              "label": "Garbage Disposal"
+              "label": "Ceiling Fan & Light"
             },
             {
-              "label": "Faucets & Hoses"
+              "label": "Outlet & GFCI"
             },
             {
-              "label": "Sinks & Tubs"
+              "label": "Switches & Dimmers"
             }
           ]
         }
